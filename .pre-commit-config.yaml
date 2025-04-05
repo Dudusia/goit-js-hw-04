@@ -25,4 +25,3 @@ repos:
         entry: ./scripts/pre-commit-prettier.sh
         language: script
         files: \.(html|css|js)$
-

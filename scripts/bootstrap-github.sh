@@ -62,7 +62,7 @@ create_repo() {
         -H "X-GitHub-Api-Version: 2022-11-28" \
         $REPO_URL \
         -d "{\"name\": \"$REPO_NAME\", \"auto_init\": \"false\"")
-    
+
     if [ "$response" -eq 201 ]; then
         echo "✅ Repository $REPO_NAME created successfully."
     else
